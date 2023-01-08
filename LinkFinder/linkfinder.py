@@ -75,8 +75,6 @@ def parser_error(errmsg):
     '''
     Error Messages
     '''
-    print("Usage: python %s [Options] use -h for help" % sys.argv[0])
-    print("Error: %s" % errmsg)
     sys.exit()
 
 
